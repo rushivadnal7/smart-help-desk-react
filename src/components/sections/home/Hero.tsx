@@ -33,7 +33,7 @@ export default function Hero() {
             />
           </div>
 
-          <p className="mt-5 max-w-7xl hidden md:block mx-auto md:mx-0 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
+          <p className="mt-5 max-w-xl hidden md:block mx-auto md:mx-0 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
             AI-driven sales automation & insights. Empower your team, close more
             deals, and maximize revenue effortlessly.
           </p>
@@ -55,7 +55,7 @@ export default function Hero() {
         </div>
 
         {/* Right Side - Video */}
-        <div className="flex flex-col justify-end-safe items-end ">
+        <div className="flex flex-col md:justify-end-safe md:items-end items-center justify-center ">
           <div className="w-full flex md:hidden items-center justify-center md:justify-start">
             <RotateWords
               text="AI that can"
@@ -63,30 +63,16 @@ export default function Hero() {
             />
           </div>
 
-          <p className="mt-5 max-w-xl md:hidden block  mx-auto md:mx-0 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
+          <p className="mt-5 max-w-80 text-justify  md:hidden block  mx-auto md:mx-0 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
             AI-driven sales automation & insights. Empower your team, close more
             deals, and maximize revenue effortlessly.
           </p>
-          {/* <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
-            className="w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden shadow-2xl"
-          >
-            <video
-              src="/hero-bg-video.gif"
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover"
-            />
-          </motion.div> */}
+ 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
-            className="w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden shadow-2xl"
+            className="w-[280px] h-[280px]  sm:w-[350px] sm:h-[350px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden shadow-2xl"
           >
             <img
               src="/hero-bg-video.gif"
