@@ -33,7 +33,7 @@ export default function Hero() {
             />
           </div>
 
-          <p className="mt-5 max-w-xl hidden md:block mx-auto md:mx-0 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
+          <p className="mt-5 max-w-7xl hidden md:block mx-auto md:mx-0 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
             AI-driven sales automation & insights. Empower your team, close more
             deals, and maximize revenue effortlessly.
           </p>
