@@ -20,9 +20,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen relative z-10 flex items-center justify-center text-white overflow-hidden px-4 sm:px-6 lg:px-8"
+      className="min-h-screen relative z-10 flex items-center  max-w-screen justify-center text-white overflow-hidden "
     >
-      <div className="container mx-auto max-w-7xl flex flex-col-reverse md:flex-row gap-12 items-center">
+      <div className="container mx-auto max-w-7xl  flex justify-between flex-col-reverse md:flex-row gap-12 items-center">
 
         {/* Left Side - Content */}
         <div className="z-30 text-center md:text-left">
@@ -55,7 +55,7 @@ export default function Hero() {
         </div>
 
         {/* Right Side - Video */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-end-safe items-end ">
           <div className="w-full flex md:hidden items-center justify-center md:justify-start">
             <RotateWords
               text="AI that can"

@@ -261,7 +261,7 @@ const Home = () => {
   ];
 
   return (
-    <div ref={containerRef} className="relative min-h-screen bg-black text-white overflow-hidden">
+    <div ref={containerRef} className="relative   w-full min-h-screen bg-black text-white overflow-hidden">
       {/* Three.js Background */}
       <div ref={threeRef} className="fixed inset-0 z-0 pointer-events-none" />
       {/* <ShootingStars/> */}
